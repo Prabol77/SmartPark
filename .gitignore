@@ -1,0 +1,44 @@
+
+.venv/
+__pycache__/
+*.pyc
+.env
+*.pt
+*.pth
+runs/
+.streamlit/secrets.toml
+
+datasets/public/*
+datasets/lpu_footage/*
+!datasets/public/.gitkeep
+!datasets/lpu_footage/.gitkeep
+
+# Git internals
+.git/
+
+# Processed and prepared datasets
+datasets/processed/
+datasets/parking_segmentation/
+datasets/parking_adaptation/
+
+# Large archives and media
+*.tar.gz
+*.zip
+*.mp4
+*.avi
+
+# Generated reports and oversized inventory
+documentation/project_structure.txt
+
+# Python and test caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Temporary files
+*.log
+*.tmp
+
+# Local backups - keep out of Git
+documentation/archive/
+documentation/final_backup/
